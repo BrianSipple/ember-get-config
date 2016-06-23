@@ -1,11 +1,4 @@
 import find from './find';
+import config from './config';
 
-const CONFIG_REGEX = /^[^/]+\/config\/environment$/;
-
-export function findConfigName(entries) {
-  return find.call(Object.keys(entries), (entry) => {
-    return CONFIG_REGEX.test(entry);
-  });
-}
-
-export default window.requirejs(findConfigName(window.requirejs.entries)).default;
+export default config;
