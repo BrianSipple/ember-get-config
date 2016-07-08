@@ -12,16 +12,6 @@ module.exports = {
    */
   normalizeEntityName() {},
 
-  // afterInstall(options) {
-  //   const config = this.project.config();
-  //
-  //   fs.writeFileSync(
-  //     path.resolve('node_modules', 'ember-get-config', 'addon', 'config.js'),
-  //     `export default ${JSON.stringify(config, null, 2)}`,
-  //     'utf-8'
-  //   );
-  // }
-
   // locals: function(options) {
   //   // Return custom template variables here.
   //   return {
